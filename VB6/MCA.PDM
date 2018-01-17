@@ -1,0 +1,99 @@
+[Root]
+Most Recent Package=MCA
+
+
+[Package|MCA|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\pondpol\Desktop\MCA\VB6
+
+[Package|MCA|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MCA|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MCA|Files Found]
+
+[Package|MCA|Files Released]
+
+[Package|MCA|Missing Dependency Information]
+C:\Windows\SysWOW64\NTGraph.ocx=
+
+[Package|MCA|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\Comdlg32.ocx=
+C:\Windows\SysWOW64\MSCOMM32.OCX=
+
+[Package|MCA|Files Added]
+
+[Package|MCA|Files Removed]
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+c:\program files (x86)\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|MCA|Files In Project]
+C:\Windows\System32\msvbvm60.dll=No
+C:\Windows\System32\oleaut32.dll=No
+C:\Windows\System32\olepro32.dll=No
+C:\Windows\System32\asycfilt.dll=No
+C:\Windows\System32\stdole2.tlb=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\Windows\SysWOW64\NTGraph.ocx=Yes
+C:\Windows\SysWOW64\MSCOMM32.OCX=Yes
+C:\Windows\SysWOW64\Comdlg32.ocx=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Users\pondpol\Desktop\MCA\VB6\MCA.exe=Yes
+
+[Package|MCA|Configure Registry Files]
+Applicable=No
+
+[Package|MCA|Configure Remote Servers]
+Applicable=No
+
+[Package|MCA|Install Locations]
+C:\Users\MEW-ASUS\Desktop\MCA\VB6\MCA.exe=$(AppPath)
+C:\Windows\SysWOW64\NTGraph.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\Comdlg32.ocx=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Users\pondpol\Desktop\MCA\VB6\MCA.exe=$(AppPath)
+
+[Package|MCA|Configure Shared Files]
+Applicable=Yes
+C:\Users\MEW-ASUS\Desktop\MCA\VB6\MCA.exe=No
+C:\Users\pondpol\Desktop\MCA\VB6\MCA.exe=No
+
+[Package|MCA|Distribution]
+Type=single
+Size=
+Title=mini MCA Multi Channel Analyzer
+
+[Package|MCA|IconGroups]
+Group0=mini MCA Multi Channel Analyzer
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|MCA|mini MCA Multi Channel Analyzer]
+Icon1=MCA.exe
+Title1=mini MCA Multi Channel Analyzer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|MCA|Package]
+PackageFolder=C:\Users\pondpol\Desktop\MCA\VB6
+ProjectFolder=C:\Users\pondpol\Desktop\MCA\VB6
+ServerSideCab=
+File1=C:\Users\pondpol\Desktop\MCA\VB6\setup.exe
+File2=C:\Users\pondpol\Desktop\MCA\VB6\Setup.Lst
+File3=C:\Users\pondpol\Desktop\MCA\VB6\MCA.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
